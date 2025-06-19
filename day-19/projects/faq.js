@@ -1,23 +1,18 @@
-console.log("Project: FAQ");
 
+ const faq = document.querySelector(".faq")
 
+ faq.addEventListener("click" , function(e) {
+  if (e.target.classlist.contains("question")){
+    e.stopPropagation;
+  const currentItem = e.target.parentElement
+  const currentanswer  = currentItem.querySelector(".answer")
 
-const faq = document.querySelector(".faq");
+  currentanswer.classlist.toggle("show")
 
-// Event Delegation: Handle clicks on all questions
-faq.addEventListener("click", function (e) {
-  if (e.target.classList.contains("question")) {
-    e.stopPropagation();
+}})
 
-    const currentItem = e.target.parentElement;
-    const currentAnswer = currentItem.querySelector(".answer");
+ document.addEventListener("click", function() {
+  const allanswers = document.querySelectorAll(".answer.show")
 
-    currentAnswer.classList.toggle("show");
-  }
-});
-
-// Click outside to collapse all
-document.addEventListener("click", function () {
-  const allAnswers = document.querySelectorAll(".answer.show");
-  allAnswers.forEach(answer => answer.classList.remove("show"));
-});
+  allanswers.forEach(answer => answer.classlist.remove("show"))
+ })

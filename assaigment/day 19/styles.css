@@ -1,0 +1,56 @@
+/* Container */
+.tabs {
+  width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #f9f9f9;
+}
+
+/* Tab headers container */
+.tab-headers {
+  display: flex;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Each tab header */
+.tab-headers .tab {
+  flex: 1;
+  padding: 12px 16px;
+  text-align: center;
+  cursor: pointer;
+  background: #eee;
+  border-right: 1px solid #ccc;
+  transition: background 0.3s ease;
+  user-select: none;
+}
+
+/* Last tab header without right border */
+.tab-headers .tab:last-child {
+  border-right: none;
+}
+
+/* Hover effect */
+.tab-headers .tab:hover {
+  background: #ddd;
+}
+
+/* Active tab header */
+.tab-headers .tab.active {
+  background: white;
+  font-weight: bold;
+}
+/* ...existing code... */
+
+/* Hide all tab contents by default */
+.tab-contents .content {
+  display: none;
+}
+
+/* Show only the active tab content */
+.tab-contents .content.active {
+  display: block;
+}
+
+/* ...existing code... */

@@ -6,11 +6,32 @@ Please complete the following tasks and post them on the tapaScript Discord unde
 
 ## 1. Pass a function to greet a user and then thank them
 
+```js
+
+    
+  function greet(func)
+  {
+    func()
+  }
+
+  function thank(name){
+       
+       console.log(`Greetings, ${name}`)
+       setTimeout(() => {
+      console.clear()
+      console.log(`Thank you ${name}`)
+    }, 2000)
+  }
+
+greet(() => thank("mo"));
+```
+
 ## 2. Implement a calculator function that accepts two numbers and a callback to perform operations like add, subtract
 
 ```js
 function calculator(a, b, operationCallback) {
   // Complete this function
+  return operationCallback(a, b)
 }
 
 function add(x, y) {
@@ -26,7 +47,11 @@ Also test it with subtract, multiply, divide functions.
 
 ```js
 function delayedMessage(message, delay, callback) {
-  // Your code here
+    // Your code here
+    setTimeout(() => {
+      console.log(`${message}`);
+      callback();
+    }, delay);
 }
 
 // delayedMessage("Task complete", 2000, () => console.log("Callback Fired!"))
@@ -37,6 +62,14 @@ function delayedMessage(message, delay, callback) {
 ```js
 function filterNumbers(arr, conditionCallback) {
   // Use loop and callback to return filtered array
+  const filteredArr = []
+
+  for(let item of arr){
+    if(conditionCallback(item)){
+      filteredArr.push(item)
+    }
+  } 
+  return filteredArr;
 }
 
 // Example: filterNumbers([1, 2, 3, 4], n => n > 2) // should return [3, 4]
@@ -58,6 +91,12 @@ function task2(callback) {
 function task3() {
   console.log("Task 3 done");
 }
+
+task1(() => {
+  task2(() => {
+    task3();
+  });
+});
 
 // Call them in sequence using nested callbacks
 ```

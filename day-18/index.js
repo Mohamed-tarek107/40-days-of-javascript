@@ -17,7 +17,7 @@ console.log("Day 18: DOM Manipulations");
 
 
 // Creating Elements
-{
+{ 
     /*
     const pElem = document.createElement("p");
     pElem.innerText = "This is a text added dynamically.";

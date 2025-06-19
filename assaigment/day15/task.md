@@ -8,26 +8,22 @@ Please complete the following tasks and post them on the tapaScript Discord unde
 
 > Please Note: These tasks are for your practice. If you are stuck, go back to the videos and get the clarifications. If you are still stuck, feel free to start a conversation on [tapaScript Discord](https://discord.gg/HHwdF8r28m).
 
-- [ ] **T-001**: Create an array of 5 elements using the Array Constructor.
-- [ ] **T-002**: Create an array of 3 empty slots.
-- [ ] **T-003**: Create an array of 6 elements using the Array literals and access the fourth element in the array using its `length` property.
-- [ ] **T-004**: Use the `for` loop on the above array to print elements in the odd index.
-- [ ] **T-005**: Add one element at the front and the end of an array.
-- [ ] **T-006**: Remove an element from the front and the end of an array.
-- [ ] **T-007**: Create an array containing the name of your favourite foods(10 foods). Destructure the 6th food element from the array using destructuring.
-- [ ] **T-008**: Take out the last 8 food items from the above array using the Array destructuring. Hint: rest parameter.
-- [ ] **T-009**: Clone an Array(Shallow cloning)
-- [ ] **T-010**: Empty an array using its length property
-- [ ] **T-011**: Create an array of 10 elements(number 1 to 10). Resize the array to length 6 once you find the number 5 in that array. Hint: Use `for-loop`.
-- [ ] **T-012**: Create an Array of 10 elements. Use the `splice()` method to empty the array.
-- [ ] **T-013**: Create an Array of 10 elements. You can empty the array in multiple ways: using the `length` property, using the `pop()` method, using the `shift()` method, setting the array with `[]`, or the `splice()` method. Which among these methods are most efficient and why?
-- [ ] **T-014**: What happens when you concatenate two empty arrays?
-- [ ] **T-015**: How can you check if a value is partially matching with any of the elements of an Array?
-- [ ] **T-016**: What is the difference between the slice() and splice() methods?
-- [ ] **T-017**: Create an Array of alphanumeric strings. Sort the elements in both ascending and descending orders. You must be doing this in an immutable way such that the source array never gets modified.
-- [ ] **T-018**: Can you give examples of sparse and dense arrays?
-- [ ] **T-019**: Give a practical usages of the .fill() method
-- [ ] **T-020**: How to convert an array to a string?
+- [X] **T-005**: Add one element at the front and the end of an array.
+- [X] **T-006**: Remove an element from the front and the end of an array.
+- [X] **T-007**: Create an array containing the name of your favourite foods(10 foods). Destructure the 6th food element from the array using destructuring.
+- [X] **T-008**: Take out the last 8 food items from the above array using the Array destructuring. Hint: rest parameter.
+- [X] **T-009**: Clone an Array(Shallow cloning)
+- [X] **T-010**: Empty an array using its length property
+- [X] **T-011**: Create an array of 10 elements(number 1 to 10). Resize the array to length 6 once you find the number 5 in that array. Hint: Use `for-loop`.
+- [X] **T-012**: Create an Array of 10 elements. Use the `splice()` method to empty the array.
+- [X] **T-013**: Create an Array of 10 elements. You can empty the array in multiple ways: using the `length` property, using the `pop()` method, using the `shift()` method, setting the array with `[]`, or the `splice()` method. Which among these methods are most efficient and why?
+- [X] **T-014**: What happens when you concatenate two empty arrays?
+- [X] **T-015**: How can you check if a value is partially matching with any of the elements of an Array?
+- [X] **T-016**: What is the difference between the slice() and splice() methods?
+- [X] **T-017**: Create an Array of alphanumeric strings. Sort the elements in both ascending and descending orders. You must be doing this in an immutable way such that the source array never gets modified.
+- [X] **T-018**: Can you give examples of sparse and dense arrays?
+- [X] **T-019**: Give a practical usages of the .fill() method
+- [X] **T-020**: How to convert an array to a string?
 
 > Consider these input arrays for question **T-21** to **T-48**
 
@@ -59,21 +55,21 @@ Please complete the following tasks and post them on the tapaScript Discord unde
   ];
   ```
 
-- [ ] **T-021**: Can you filter employees who work in the "Engineering" department?
-- [ ] **T-022**: Create a new array that combines employee names and department names in the format: "Alice (HR)".
-- [ ] **T-023**: Find the highest salary among employees.
-- [ ] **T-024**: Check if there is at least one employee in the "Sales" department.
-- [ ] **T-025**: Write a function to filter employees earning more than 6000.
-- [ ] **T-026**: Create an array of employee names only.
-- [ ] **T-027**: Calculate the total salary of all employees using
-- [ ] **T-028**: Is there any employee earning less than 5000?
-- [ ] **T-029**: Find the first employee who earns exactly 5100.
-- [ ] **T-030**: Find the last employee in the "HR" department.
-- [ ] **T-031**: Find the first employee in the "Marketing" department.
-- [ ] **T-032**: Check if all employees earn more than 4000.
-- [ ] **T-033**: Find the first employee in the "Sales" and "HR" department.
-- [ ] **T-034**: Verify if all employees belong to a department listed in the departments array.
-- [ ] **T-035**: Log each employee's name and department name to the console.
+- [X] **T-021**: Can you filter employees who work in the "Engineering" department?
+- [X] **T-022**: Create a new array that combines employee names and department names in the format: "Alice (HR)".
+- [X] **T-023**: Find the highest salary among employees.
+- [X] **T-024**: Check if there is at least one employee in the "Sales" department.
+- [X] **T-025**: Write a function to filter employees earning more than 6000.
+- [X] **T-026**: Create an array of employee names only.
+- [X] **T-027**: Calculate the total salary of all employees using
+- [X] **T-028**: Is there any employee earning less than 5000?
+- [X] **T-029**: Find the first employee who earns exactly 5100.
+- [X] **T-030**: Find the last employee in the "HR" department.
+- [X] **T-031**: Find the first employee in the "Marketing" department.
+- [X] **T-032**: Check if all employees earn more than 4000.
+- [X] **T-033**: Find the first employee in the "Sales" and "HR" department.
+- [X] **T-034**: Verify if all employees belong to a department listed in the departments array.
+- [X] **T-035**: Log each employee's name and department name to the console.
 - [ ] **T-036**: Extract all employee names into a single array.
 - [ ] **T-037**: Increment each employee's salary by 10%
 - [ ] **T-038**: Assume each employee can have multiple skills. Create an array of employee skills and flatten them. Example: [{name: "Alice", skills: ["Excel", "Management"]}, ...].

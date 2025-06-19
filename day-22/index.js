@@ -1,4 +1,4 @@
-console.log("Async JavaScript - Callback");
+ console.log("Async JavaScript - Callback");
 
 const storeEL = document.getElementById("store");
 const orderDetailsEL = document.getElementById("order-details");

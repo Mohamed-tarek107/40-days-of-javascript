@@ -35,4 +35,13 @@ function addTask() {
 
 function filterTasks() {
     // Implement the filter functionality
+    const search = document.getElementById("searchInput")
+    const input = search.value;
+    
+    const items = document.querySelectorAll("ul#taskList li")
+
+    items.forEach((item) =>{
+        const text = item.textContent.toLowerCase();
+        item.style.display = text.includes(input.toLowerCase()) ? "block" : "none"
+    });
 }
